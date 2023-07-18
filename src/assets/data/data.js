@@ -24,5 +24,5 @@ export const navdata = [
         text: 'contact',
         url: '/contact'
     }
-
 ]
+
