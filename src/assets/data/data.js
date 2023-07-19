@@ -77,7 +77,7 @@ export const category = [
     {
         id: 8,
         category: 'Writing',
-        title: 'Either write something worth reading or do something worth writing.',
+        title: 'Write worth reading or do worth writing.',
         cover: '../images/category/writing.jpg'
 
     },
