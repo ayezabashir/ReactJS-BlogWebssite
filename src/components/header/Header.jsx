@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../../assets/images/logo.png'
 import { navdata } from '../../assets/data/data'
 import { Link } from 'react-router-dom'
 import User from './User'
 
 const Header = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const header = document.querySelector('.header');
+            header.classList.toggle('active', window.scrollY > 100);
+        };
+        window.addEventListener('scroll', handleScroll);
+    }, []);
     return (
         <header className='header'>
             <div className="container">
