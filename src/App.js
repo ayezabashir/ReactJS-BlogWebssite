@@ -5,9 +5,12 @@ import {
   Route
 } from "react-router-dom";
 import Home from './pages/home/Home';
+import Header from './components/header/Header';
+
 const App = () => {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route exact path="/" Component={Home} />
       </Routes>

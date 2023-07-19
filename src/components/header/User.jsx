@@ -9,7 +9,7 @@ import { BiLogOut } from 'react-icons/bi'
 
 const User = () => {
     const user = true;
-    const [openProfile, setOpenProfile] = useState(true);
+    const [openProfile, setOpenProfile] = useState(false);
     const closeProfile = () => {
         setOpenProfile(false);
     }

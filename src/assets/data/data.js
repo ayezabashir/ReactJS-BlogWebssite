@@ -26,3 +26,59 @@ export const navdata = [
     }
 ]
 
+export const category = [
+    {
+        id: 1,
+        category: 'Travel',
+        title: 'Take only pictures, leave only footprints.',
+        cover: '../images/category/travel.jpg'
+
+    },
+    {
+        id: 2,
+        category: 'Fashion',
+        title: 'Fashions fade, style is eternal.',
+        cover: '../images/category/fashion.jpg'
+    },
+    {
+        id: 3,
+        category: 'Fitness',
+        title: 'Time for some inner peace and wellness.',
+        cover: '../images/category/fitness.jpg'
+
+    },
+    {
+        id: 4,
+        category: 'Business',
+        title: "Don't wait for opportunities, create them",
+        cover: '../images/category/business.jpg'
+    },
+    {
+        id: 5,
+        category: 'Technology',
+        title: 'Technology is a useful servant but a dangerous master.',
+        cover: '../images/category/tech.jpg'
+
+    },
+    {
+        id: 6,
+        category: 'Family',
+        title: 'We choose family!',
+        cover: '../images/category/family.jpg'
+
+    },
+    {
+        id: 7,
+        category: 'Sports',
+        title: 'The best motivation always comes from within',
+        cover: '../images/category/sports.jpg'
+
+    },
+    {
+        id: 8,
+        category: 'Writing',
+        title: 'Either write something worth reading or do something worth writing.',
+        cover: '../images/category/writing.jpg'
+
+    },
+]
