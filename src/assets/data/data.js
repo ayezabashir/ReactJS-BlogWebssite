@@ -82,3 +82,96 @@ export const category = [
 
     },
 ]
+
+export const cards = [
+    {
+        id: 1,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 2,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 3,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 4,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 1,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 5,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 6,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 7,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 8,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+    {
+        id: 9,
+        title: '',
+        desc: "",
+        category: '',
+        cover: '',
+        date: "April 05, 2018",
+        comments: ''
+    },
+]
