@@ -86,92 +86,83 @@ export const category = [
 export const cards = [
     {
         id: 1,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Home Decor - Essentials',
+        desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        category: 'LifeStyle',
+        cover: '../images/blogs/homedecor.jpg',
+        date: "Dec 05, 2020",
+        comments: '12'
     },
     {
         id: 2,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Smoldering Summer',
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        category: 'Summer',
+        cover: '../images/blogs/beach.jpg',
+        date: "April 15, 2019",
+        comments: '23'
     },
     {
         id: 3,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Blossom Season',
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        category: 'Flowers',
+        cover: '../images/blogs/flowers.jpg',
+        date: "June 09, 2021",
+        comments: '09'
     },
     {
         id: 4,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
-    },
-    {
-        id: 1,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Must have Makeup',
+        desc: "Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        category: 'Fashion',
+        cover: '../images/blogs/makeup.jpg',
+        date: "January 24, 2021",
+        comments: '16'
     },
     {
         id: 5,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Healthy Diet',
+        desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        category: 'Health',
+        cover: '../images/blogs/health.jpg',
+        date: "March 17, 2020",
+        comments: '27'
     },
     {
         id: 6,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
+        title: 'Yoga Poses for beginners',
+        desc: "Ertt lore muspe enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        category: 'Fitness',
+        cover: '../images/blogs/yoga.jpg',
         date: "April 05, 2018",
-        comments: ''
+        comments: '19'
     },
     {
         id: 7,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Will AI takeover',
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        category: 'Tech',
+        cover: '../images/blogs/tech.jpg',
+        date: "May 23, 2019",
+        comments: '11'
     },
     {
         id: 8,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
+        title: 'Smart Business Tips',
+        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        category: 'Business',
+        cover: '../images/blogs/business.jpg',
+        date: "July 16, 2021",
+        comments: '06'
     },
     {
         id: 9,
-        title: '',
-        desc: "",
-        category: '',
-        cover: '',
-        date: "April 05, 2018",
-        comments: ''
-    },
+        title: "Travel- Do's and Don'ts",
+        desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.s",
+        category: 'Travel',
+        cover: '../images/blogs/travel.jpg',
+        date: "June 05, 2019",
+        comments: '32'
+    }
 ]
