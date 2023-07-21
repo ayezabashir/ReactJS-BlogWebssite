@@ -4,7 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdNavigateNext } from 'react-icons/md';
-import { GrFormPrevious } from 'react-icons/gr'
+import { GrFormPrevious } from 'react-icons/gr';
+import { Link } from 'react-router-dom'
 
 const SampleNextArrow = (props) => {
     const { onClick } = props;
@@ -71,13 +72,15 @@ const Category = () => {
                     <Slider {...settings}>
                         {category.map(item => (
                             <div className="boxes" key={item.id}>
-                                <div className="image">
-                                    <img src={item.cover} alt={item.category} />
-                                </div>
-                                <div className="description">
-                                    <h4>{item.category}</h4>
-                                    <p>{item.title}</p>
-                                </div>
+                                <Link to={`/categories/${item.id}`}>
+                                    <div className="image">
+                                        <img src={item.cover} alt={item.category} />
+                                    </div>
+                                    <div className="description">
+                                        <h4>{item.category}</h4>
+                                        <p>{item.title}</p>
+                                    </div>
+                                </Link>
                             </div>
                         ))}
                     </Slider>

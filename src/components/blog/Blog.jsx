@@ -11,27 +11,27 @@ const Blog = () => {
                 <div className="container grid3">
                     {cards.map(item => (
                         <div className="box box-items" key={item.id}>
-                            <div className="image">
-                                <img loading='lazy' src={item.cover} alt="" />
-                            </div>
-                            <div className="description">
-                                <div className="tag">
-                                    <AiOutlineTags className='icon' />
-                                    <a href="/">#{item.category}</a>
+                            <Link to={`/details/${item.id}`} >
+                                <div className="image">
+                                    <img loading='lazy' src={item.cover} alt="" />
                                 </div>
-                                <Link to={`/details/${item.id}`} className='link'>
-                                    <h3>{item.title}</h3>
-                                </Link>
-                                <p>{item.desc.slice(0, 150)}...</p>
-                                <div className="date">
-                                    <AiOutlineClockCircle className='icon' />
-                                    <label htmlFor="">{item.date}</label>
-                                    <AiOutlineComment className='icon' />
-                                    <label htmlFor="">{item.comments}</label>
-                                    <AiOutlineShareAlt className='icon' />
-                                    <label htmlFor="">Share</label>
+                                <div className="description">
+                                    <div className="tag">
+                                        <AiOutlineTags className='icon' />
+                                        <a href="/">#{item.category}</a>
+                                    </div>
+                                    <h3 className='link'>{item.title}</h3>
+                                    <p>{item.desc.slice(0, 150)}...</p>
+                                    <div className="date">
+                                        <AiOutlineClockCircle className='icon' />
+                                        <label htmlFor="">{item.date}</label>
+                                        <AiOutlineComment className='icon' />
+                                        <label htmlFor="">{item.comments}</label>
+                                        <AiOutlineShareAlt className='icon' />
+                                        <label htmlFor="">Share</label>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     ))}
                 </div>

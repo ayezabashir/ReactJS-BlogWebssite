@@ -167,7 +167,6 @@ $bp-tablet: 768px;
 
 // Category
 .category {
-  margin-top: 50px;
   position: relative;
   .content {
     .boxes {
@@ -281,10 +280,8 @@ $bp-tablet: 768px;
             opacity: 0.7;
           }
         }
-        .link {
-          h3 {
-            font-weight: 500;
-          }
+        h3 {
+          font-weight: 500;
         }
         p {
           color: #999;
@@ -308,6 +305,57 @@ $bp-tablet: 768px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         cursor: pointer;
         transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+// Details
+.single-post {
+  padding: 20px 0;
+  background: #fff;
+  .container {
+    .left {
+      text-align: center;
+      h1 {
+        font-size: 30px;
+        border-bottom: 1px solid #eaeaea;
+      }
+      .desc {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-style: italic;
+        text-transform: capitalize;
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100vh;
+        border-radius: 10px;
+      }
+    }
+    .right {
+      text-align: justify;
+      margin-top: 30px;
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+          font-size: 15px;
+          color: #fff;
+          margin-left: 10px;
+          border: 1px solid #eaeaea;
+          border-radius: 5px;
+          display: flex;
+          padding: 5px;
+          &:nth-child(1) {
+            background: #10ac84;
+          }
+          &:nth-child(2) {
+            background: rgb(243, 106, 106);
+          }
+        }
       }
     }
   }
