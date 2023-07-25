@@ -9,6 +9,7 @@ import Header from './components/header/Header';
 import Details from './pages/details/Details';
 import Categories from './pages/details/Categories'
 import Login from './pages/login/Login';
+import Account from './pages/account/Account';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/categories/:id" Component={Categories} />
         <Route exact path="/details/:id" Component={Details} />
         <Route exact path='/login' Component={Login}></Route>
+        <Route exact path='/account' Component={Account}></Route>
       </Routes>
     </Router>
   )

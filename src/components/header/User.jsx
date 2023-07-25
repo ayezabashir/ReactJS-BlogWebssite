@@ -23,7 +23,7 @@ const User = () => {
                         </button>
                         {openProfile && (
                             <div className="open-profile box-items" onClick={closeProfile}>
-                                <Link to='account'>
+                                <Link to='/account'>
                                     <div className="image">
                                         <div className="img">
                                             <img src="https://avatars.githubusercontent.com/u/115556300?v=4" alt="" />
@@ -34,7 +34,7 @@ const User = () => {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to='/create'>
+                                <Link>
                                     <button className='box'>
                                         <RiImageAddLine className='icon' />
                                         <h4>Create Post</h4>
