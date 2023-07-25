@@ -409,3 +409,48 @@ $bp-tablet: 768px;
     }
   }
 }
+
+// Login
+.login {
+  .content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .bgimg {
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 35vh;
+        object-position: bottom;
+      }
+      .text {
+        text-align: center;
+      }
+    }
+    form {
+      margin: 10px 20vw;
+      label {
+        display: block;
+        margin: 10px 0;
+        color: #000;
+      }
+      input {
+        padding: 5px 10px;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        display: block;
+        border: 1px solid rgb(164, 163, 163);
+      }
+      .btn {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        background: #000;
+        color: #fff;
+        padding: 10px;
+      }
+    }
+  }
+}
