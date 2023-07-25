@@ -4,7 +4,7 @@ import loginimg from '../../assets/images/loginimg.png'
 const Account = () => {
     return (
         <>
-            <section className="login">
+            <section className="account">
                 <div className="container">
                     <h3>My Account Information</h3>
                     <div className="content">
