@@ -78,6 +78,10 @@ $bp-phone: 500px;
         padding: 0 2px;
         li {
           padding: 0 15px;
+          transition: all 0.5s ease;
+          &:hover {
+            transform: translateY(-4px);
+          }
         }
       }
     }
@@ -179,6 +183,7 @@ $bp-phone: 500px;
           right: 0;
           width: 100%;
           background: rgba(0, 0, 0, 0.3);
+          transition: all 0.3s ease-in-out;
         }
       }
       .description {
@@ -189,6 +194,7 @@ $bp-phone: 500px;
         width: 100%;
         z-index: 10;
         color: #fff;
+        transition: all 0.5s ease;
         h4 {
           letter-spacing: 1px;
           margin-bottom: 0;
@@ -205,6 +211,16 @@ $bp-phone: 500px;
           font-size: 14px;
           color: #fff;
           text-shadow: black;
+        }
+      }
+      &:hover {
+        .image {
+          &::after {
+            background: rgba(0, 0, 0, 0);
+          }
+        }
+        .description {
+          transform: translateY(-7px);
         }
       }
     }
