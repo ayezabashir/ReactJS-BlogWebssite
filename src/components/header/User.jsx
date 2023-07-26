@@ -34,13 +34,13 @@ const User = () => {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link>
+                                <Link to='/create'>
                                     <button className='box'>
                                         <RiImageAddLine className='icon' />
                                         <h4>Create Post</h4>
                                     </button>
                                 </Link>
-                                <Link>
+                                <Link to='/account'>
                                     <button className="box">
                                         <IoSettingsOutline className='icon' />
                                         <h4>My Account</h4>

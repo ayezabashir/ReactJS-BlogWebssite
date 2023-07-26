@@ -11,6 +11,7 @@ import Categories from './pages/details/Categories'
 import Login from './pages/login/Login';
 import Account from './pages/account/Account';
 import Register from './pages/login/Register';
+import Create from './components/create/Create';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path='/login' Component={Login}></Route>
         <Route exact path='/account' Component={Account}></Route>
         <Route exact path='/register' Component={Register}></Route>
+        <Route exact path='/create' Component={Create}></Route>
       </Routes>
     </Router>
   )
