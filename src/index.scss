@@ -58,6 +58,7 @@ textarea {
   grid-gap: 15px;
 }
 $bp-tablet: 768px;
+$bp-phone: 500px;
 
 // Header
 .header {
@@ -97,7 +98,6 @@ $bp-tablet: 768px;
   margin-left: 20px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
-
   button {
     img {
       border-radius: 50%;
@@ -150,16 +150,6 @@ $bp-tablet: 768px;
       }
       &:hover {
         background: rgba(0, 0, 0, 0.1);
-      }
-    }
-  }
-}
-
-@media (max-width: $bp-tablet) {
-  .header {
-    .container {
-      nav {
-        display: none;
       }
     }
   }
@@ -513,5 +503,50 @@ $bp-tablet: 768px;
         margin-top: 10px;
       }
     }
+  }
+}
+
+// Footer
+.footer {
+  padding: 10px;
+  .container {
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        cursor: pointer;
+        margin-left: 10px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease;
+        color: #333;
+        &:hover {
+          transform: translateY(-5px) scale(1.2);
+          color: #111;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .header {
+    .container {
+      nav {
+        display: none;
+      }
+    }
+  }
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: $bp-phone) {
+  .grid3 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

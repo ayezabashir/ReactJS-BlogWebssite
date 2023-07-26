@@ -12,6 +12,7 @@ import Login from './pages/login/Login';
 import Account from './pages/account/Account';
 import Register from './pages/login/Register';
 import Create from './components/create/Create';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route exact path='/register' Component={Register}></Route>
         <Route exact path='/create' Component={Create}></Route>
       </Routes>
+      <Footer />
     </Router>
   )
 }
