@@ -13,7 +13,16 @@ const Blog = () => {
                         <div className="box box-items" key={item.id}>
                             <Link to={`/details/${item.id}`} >
                                 <div className="image">
-                                    <img loading='lazy' src={item.cover} alt="" />
+                                    <img
+                                        sizes="(max-width: 7000px) 40vw, 2800px"
+                                        srcset={`
+                                                ${item.res1} 480w,
+                                                ${item.res2} 1309w,
+                                                ${item.res3} 1891w,
+                                                ${item.res4} 2365w,
+                                                ${item.res5} 2800w`}
+                                        src={item.cover}
+                                        alt=""></img>
                                 </div>
                                 <div className="description">
                                     <div className="tag">
