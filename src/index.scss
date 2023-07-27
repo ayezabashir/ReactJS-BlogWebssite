@@ -531,6 +531,7 @@ $bp-phone: 500px;
     display: flex;
     flex-direction: column;
     margin: 40px;
+    margin-bottom: 0;
     flex-wrap: wrap;
     .content {
       display: flex;
@@ -544,7 +545,7 @@ $bp-phone: 500px;
         padding-top: 15px;
         padding-right: 15px;
         height: 270px;
-        width: 390px;
+        width: 60%;
         background: #aed58152;
         img {
           width: 100%;
@@ -618,6 +619,33 @@ $bp-phone: 500px;
           align-items: center;
         }
       }
+    }
+  }
+  .about {
+    display: block;
+    .left {
+      margin: 20px auto;
+      .content {
+        flex-direction: column;
+        .text {
+          font-size: 30px;
+          margin: 20px auto;
+        }
+        .image {
+          height: 200px;
+          width: 100%;
+          background: #aed58152;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 6px -12px;
+          }
+        }
+      }
+    }
+    .right {
+      display: none;
     }
   }
 }
