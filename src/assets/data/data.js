@@ -31,54 +31,86 @@ export const category = [
         id: 1,
         category: 'Travel',
         title: 'Take only pictures, leave only footprints.',
-        cover: '../images/category/travel.jpg'
+        cover: '../images/category/travel.jpg',
+        res1: '../images/category/travel480.jpg',
+        res2: '../images/category/travel1309.jpg',
+        res3: '../images/category/travel1891.jpg',
+        res4: '../images/category/travel2800w.jpg'
 
     },
     {
         id: 2,
         category: 'Fashion',
         title: 'Fashions fade, style is eternal.',
-        cover: '../images/category/fashion.jpg'
+        cover: '../images/category/fashion.jpg',
+        res1: '../images/category/fashion480.jpg',
+        res2: '../images/category/fashion1309.jpg',
+        res3: '../images/category/fashion1891.jpg',
+        res4: '../images/category/fashion2800w.jpg'
     },
     {
         id: 3,
         category: 'Fitness',
         title: 'Time for some inner peace and wellness.',
-        cover: '../images/category/fitness.jpg'
+        cover: '../images/category/fitness.jpg',
+        res1: '../images/category/fitness480.jpg',
+        res2: '../images/category/fitness1309.jpg',
+        res3: '../images/category/fitness1891.jpg',
+        res4: '../images/category/fitness2800w.jpg'
 
     },
     {
         id: 4,
         category: 'Business',
         title: "Don't wait for opportunities, create them",
-        cover: '../images/category/business.jpg'
+        cover: '../images/category/business.jpg',
+        res1: '../images/category/business480.jpg',
+        res2: '../images/category/business1309.jpg',
+        res3: '../images/category/business1891.jpg',
+        res4: '../images/category/business2800w.jpg'
     },
     {
         id: 5,
         category: 'Technology',
         title: 'Technology is a useful servant but a dangerous master.',
-        cover: '../images/category/tech.jpg'
+        cover: '../images/category/tech.jpg',
+        res1: '../images/category/tech480.jpg',
+        res2: '../images/category/tech1309.jpg',
+        res3: '../images/category/tech1891.jpg',
+        res4: '../images/category/tech2800w.jpg'
 
     },
     {
         id: 6,
         category: 'Family',
         title: 'We choose family!',
-        cover: '../images/category/family.jpg'
+        cover: '../images/category/family.jpg',
+        res1: '../images/category/family480.jpg',
+        res2: '../images/category/family1309.jpg',
+        res3: '../images/category/family1891.jpg',
+        res4: '../images/category/family2800w.jpg'
 
     },
     {
         id: 7,
         category: 'Sports',
         title: 'The best motivation always comes from within',
-        cover: '../images/category/sports.jpg'
+        cover: '../images/category/sports.jpg',
+        res1: '../images/category/sports480.jpg',
+        res2: '../images/category/sports1309.jpg',
+        res3: '../images/category/sports1891.jpg',
+        res4: '../images/category/sports2800w.jpg'
 
     },
     {
         id: 8,
         category: 'Writing',
         title: 'Write worth reading or do worth writing.',
-        cover: '../images/category/writing.jpg'
+        cover: '../images/category/writing.jpg',
+        res1: '../images/category/writing480.jpg',
+        res2: '../images/category/writing1309.jpg',
+        res3: '../images/category/writing1891.jpg',
+        res4: '../images/category/writing2800w.jpg'
 
     },
 ]

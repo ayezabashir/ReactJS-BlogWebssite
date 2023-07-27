@@ -74,7 +74,15 @@ const Category = () => {
                             <div className="boxes" key={item.id}>
                                 <Link to={`/categories/${item.id}`}>
                                     <div className="image">
-                                        <img src={item.cover} alt={item.category} />
+                                        <img
+                                            sizes="(max-width: 7000px) 40vw, 2800px"
+                                            srcset={`
+                                                ${item.res1} 480w,
+                                                ${item.res2} 1309w,
+                                                ${item.res3} 1891w,
+                                                ${item.res4} 2800w`}
+                                            src={item.cover}
+                                            alt=""></img>
                                     </div>
                                     <div className="description">
                                         <h4>{item.category}</h4>
