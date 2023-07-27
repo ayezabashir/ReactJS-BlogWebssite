@@ -559,6 +559,18 @@ $bp-phone: 500px;
   .grid3 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .account {
+    .container {
+      .content {
+        flex-direction: column;
+        .left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: $bp-phone) {
