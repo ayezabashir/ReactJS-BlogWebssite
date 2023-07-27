@@ -1,6 +1,6 @@
 import React from 'react'
 import loginimg from '../../assets/images/loginimg.png'
-
+import Footer from '../../components/footer/Footer'
 const Account = () => {
     return (
         <>
@@ -25,6 +25,7 @@ const Account = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

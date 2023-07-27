@@ -12,8 +12,8 @@ import Login from './pages/login/Login';
 import Account from './pages/account/Account';
 import Register from './pages/login/Register';
 import Create from './components/create/Create';
-import Footer from './components/footer/Footer';
 import Blog from './components/blog/Blog';
+import About from './components/about/About';
 
 const App = () => {
   return (
@@ -24,12 +24,12 @@ const App = () => {
         <Route exact path="/categories/:id" Component={Categories} />
         <Route exact path="/details/:id" Component={Details} />
         <Route exact path='/login' Component={Login}></Route>
+        <Route exact path='/about' Component={About}></Route>
         <Route exact path='/account' Component={Account}></Route>
         <Route exact path='/register' Component={Register}></Route>
         <Route exact path='/create' Component={Create}></Route>
         <Route exact path='/blog' Component={Blog}></Route>
       </Routes>
-      <Footer />
     </Router>
   )
 }
